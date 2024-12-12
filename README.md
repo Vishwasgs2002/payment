@@ -68,3 +68,41 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Built Instructions:A React component for handling payments using a form inside a modal dialog.
+Form Input Fields:
+
+To: Email input with validation.
+From: Dropdown to select payment method (BTC/ETH).
+Amount: Numeric input for payment amount.
+Description: Optional text field for additional information.
+
+Dialogs:
+Payment form opens in a dialog.
+Success and error dialogs display results of payment attempts.
+
+Validation:
+Ensures all required fields are filled.
+Validates email format.
+
+Mock API:
+Simulates success and various error responses (e.g., 401 Unauthorized, 500 Server Error).
+Redirects to /login on 401 errors.
+
+Dynamic UI Updates:
+Disables submit button if validation fails.
+Resets the form and closes dialogs after submission.
+
+
+
+ Usage instructions:
+ Install Required Dependencies: Ensure you have the following installed in your project:
+
+1.React (For building the app)
+2.@mui/material (For Material-UI components)
+3.react-router-dom (For navigation)
+
+
+
+What else you would have implemented had you more time to work on it:
+For implementing Gmail took some time and For API took more time 
